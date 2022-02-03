@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 
 
-//TODO Finish rotation to mouse pointer
-// Change mouse pointer on smth interesting
+//TODO Change mouse pointer on smth interesting
 // Finish animation slide movement
 
 
