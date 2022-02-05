@@ -10,6 +10,7 @@ C# + Unity
 Structered Project (models, controllers).
 Currently almost all classes extends Monobehaviour - it's easier for debugging via editor,
 but it's also easy to remove all dependencies on Monobehaviour and leave only MainInitializator.
+Easy to step realizing MVVM pattern.
 
 
 Already implemented mechanics:
