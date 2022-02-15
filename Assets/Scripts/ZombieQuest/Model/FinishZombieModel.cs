@@ -4,17 +4,14 @@
 namespace ZombieQuest
 {
     
-    public class FinishZombieModel: ZombieModel
+    internal sealed class FinishZombieModel: ZombieModel
     {
         
         [SerializeField] private float attackPower2;
         [SerializeField] private float attackPower3;
 
         
-        public FinishZombieModel() : base()
-        {
-            
-        }
+        public FinishZombieModel() : base() {}
 
 
         public void Attack2()

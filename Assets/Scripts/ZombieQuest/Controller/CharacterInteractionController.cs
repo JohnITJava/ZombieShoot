@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 
 
 namespace ZombieQuest
@@ -91,7 +89,7 @@ namespace ZombieQuest
                             {
                                 _itemableObject.TakeInInventory();
 
-                                ChangeItemHandling();
+                                ChangeBoxItemHandling();
                             }
                         }
                         
@@ -123,7 +121,7 @@ namespace ZombieQuest
         }
         
 
-        private void ChangeItemHandling()
+        private void ChangeBoxItemHandling()
         {
             var boxWithItem = _boxController.FindBoxByItem(_itemableObject);
 

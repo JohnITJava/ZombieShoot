@@ -106,7 +106,6 @@ namespace ZombieQuest
                     character.transform.rotation, 
                     _pointRotation, 
                     5.0f * Time.deltaTime);
-                // character.transform.LookAt(_pointToLook);
             }
         }
         

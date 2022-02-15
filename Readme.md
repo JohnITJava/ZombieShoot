@@ -36,6 +36,10 @@ Already implemented mechanics:
 
 **Fix**
 Zombies splitting into one line object when attack non movable character.
+Repeatable jumping - set timeout for pressing jump key
+Timeout for displaying items in boxes
+Timeout for zombies attack
+Timeout for 
 
 
 **Hardware**:
@@ -47,5 +51,7 @@ PC, Keyboard, Mouse
 
 
 **Before launch as a game**:
+ - Set Baracks_Beta Scene
+ - Main Initilizator scene object contains all controllers scripts that used due game experience
  - Disable directional lights
  - Enable fog in light settings: "/Lighting/Environment/OtherSettings"

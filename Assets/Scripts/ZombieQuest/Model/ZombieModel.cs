@@ -5,7 +5,7 @@ using UnityEngine;
 namespace ZombieQuest
 {
 
-    public enum ZombieState
+    internal enum ZombieState
     {
         Idle,
         Walk,
@@ -15,7 +15,7 @@ namespace ZombieQuest
     }
     
     
-    public class ZombieModel: MonoBehaviour, IEnemy, IDamageble
+    internal class ZombieModel: MonoBehaviour, IEnemy, IDamageble
     {
 
         #region Fields
